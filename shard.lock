@@ -1,0 +1,26 @@
+version: 1.0
+shards:
+  admiral:
+    github: jwaldrip/admiral.cr
+    version: 1.9.0
+
+  popcorn:
+    github: icyleaf/popcorn
+    version: 0.2.2
+
+  progress_bar.cr:
+    github: tpei/progress_bar.cr
+    commit: 299dfff4c85c73da60a091d2f051b3294a9e39f5
+
+  tablo:
+    github: hutou/tablo
+    version: 0.9.3
+
+  terminimal:
+    github: aca-labs/terminimal
+    version: 1.1.0
+
+  totem:
+    github: icyleaf/totem
+    version: 0.6.0
+

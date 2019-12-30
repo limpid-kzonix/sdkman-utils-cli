@@ -7,9 +7,9 @@ authors:
 dependencies:
   admiral:
     github: jwaldrip/admiral.cr
-  commander:
-    github: mrrooijen/commander
-    version: ~> 0.3.4
+    version: 1.9.0
+  totem:
+    github: icyleaf/totem
   progress_bar.cr:
     github: tpei/progress_bar.cr
     branch: master
@@ -20,7 +20,7 @@ dependencies:
 
 targets:
   sdku-cli:
-    main: src/main.cr
+    main: src/starter.cr
 
 crystal: 0.31.1
 
